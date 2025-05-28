@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FBFBFB;
+    color: #2A3335;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #0A3981;
+    font-family: 'Helvetica', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0A3981;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: red;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-white {
+    text-align: center;
+}
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.list-inline a {
+    font-size: 24px;
+}
